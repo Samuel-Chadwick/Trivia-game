@@ -8,12 +8,19 @@
   <link rel="stylesheet" href="/src/css/main-title.css"> 
   <link rel="stylesheet" href="/src/css/title-img.css"> 
   <link rel="stylesheet" href="/src/css/get-started.css"> 
+  <link rel="stylesheet" href="/src/css/trivia.css">
 </head>
-<body>
+<body id="body">
+  <div id="main-page">
   <h1 id="Main-Title">How much do you know about general knowledge?</h1>
   <img id="title-img" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi1.wp.com%2Fwww.poolehsg.org.uk%2Fwp-content%2Fuploads%2F2020%2F05%2FGeneral-Knowledge-Quiz-Questions-2020-752x400-1.jpg%3Fw%3D800&f=1&nofb=1">
-  <button id="get-started">Get Started!</button>
+  <button id="get-started" onclick="getStarted()" onclick="triviaPage()">Get Started!</button>
+  </div>
+  <div id="trivia">
+    <h1>Hola</h1>
+  </div>
   <script src="/src/index.js"></script>
-  <script src="/src/get-started.js"></script>
+  <script src="/js/get-started.js"></script>
+  <script src="/js/trivia.js"></script>
 </body>
 </html>
